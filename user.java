@@ -1,10 +1,9 @@
-import java.util.Address;
-import java.util.Photo;
+import java.util.ArrayList;
 import java.util.Date;
 
 public class User {
     private Date birthdate;
-    private number size;
-    private Photo[] photos;
+    private int size;
+    private ArrayList<Photo> photos;
     private Address address; 
 }
